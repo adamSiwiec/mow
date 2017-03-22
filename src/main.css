@@ -1,0 +1,54 @@
+.section{
+    font-size: 6em;
+    text-align: center;
+}
+/* Backgrounds will cover all the section
+    * --------------------------------------- */
+    .section{
+        background-size: cover;
+    }
+
+    .slide{
+        background-size: cover;
+    }
+
+    /* Defining each section background and styles
+    * --------------------------------------- */
+    #section0{
+        background-image: url(https://s32.postimg.org/8j6kvt38l/IMG_4526.jpg);
+        /*padding: 30% 0 0 0; */
+    }
+    #section2{
+        background-image: url(https://s32.postimg.org/jk1q0tvhh/IMG_4527.jpg);
+    /*	padding: 6% 0 0 0; */
+    }
+    #section1{
+        background-image: url(https://s32.postimg.org/hcsvz60th/IMG_4525.jpg);
+    /*	padding: 6% 0 0 0; */
+    }
+
+  #landing {
+    background: rgba(175, 175, 175, 0.6);
+  }
+  .jumbotron {
+    background: rgba(175, 175, 175, 0.6);
+
+  }
+
+  #kitty {
+    padding-left: 15px;
+    font-size: 25px !important;
+    letter-spacing: 3.7pt;
+  }
+
+  #fp-nav {
+    top: 5%;
+  }
+
+  .vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
