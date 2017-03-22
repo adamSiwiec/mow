@@ -27,11 +27,11 @@
     /*	padding: 6% 0 0 0; */
     }
 
-  #landing {
-    background: rgba(175, 175, 175, 0.6);
+ .landing {
+    background: rgba(175, 175, 175, 0.6) !important;
   }
   .jumbotron {
-    background: rgba(175, 175, 175, 0.6);
+    background: rgba(175, 175, 175, 0.6) !important;
 
   }
 

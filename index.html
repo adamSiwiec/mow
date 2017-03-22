@@ -5,15 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://anijs.github.io/lib/anicollection/anicollection.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 </head>
 
 <body>
     <div id="fullpage">
         <div class="section" id="section0">
             <div class="container vertical-center">
-                <div class="jumbotron offset-sm-2 col-sm-8 p-l-3 p-b-3" id="landing">
+                <div class="jumbotron landing offset-sm-2 col-sm-8 p-l-3 p-b-3">
                     <h1 data-anijs="if: onRunFinished, on: $AniJSNotifier, do: pulse animated" class="display-1">Double A</h1>
                     <p id="kitty" data-anijs="if: onRunFinished, on: $AniJSNotifier, do: bounceInLeft animated" class="lead">Lawn Service done right</p>
                     <hr data-anijs="if: onRunFinished, on: $AniJSNotifier, do: bounceInLeft animated" class="m-y-2">
@@ -23,7 +22,7 @@
 
         <div class="section" id="section1">
             <div class="container vertical-center">
-                <div class="jumbotron offset-sm-2 col-sm-8 ">
+                <div class="jumbotron landing offset-sm-2 col-sm-8 ">
                     <h1 data-anijs="if: mouseover, do: pulse animated, after: removeAnim" class="display-6">Experienced,<br class = "hidden-md-up"> Dedicated,<br class = "hidden-md-up"> Reliable</h1>
                     <p class="lead">We are a team of professionals that put community before money</p>
                     <hr class="m-y-2">
@@ -35,7 +34,7 @@
         </div>
         <div class="section" id="section2">
             <div class="container vertical-center">
-                <div class="jumbotron offset-sm-2 col-sm-8 ">
+                <div class="landing jumbotron offset-sm-2 col-sm-8 ">
                     <h1 class="display-3">Contact Us</h1>
                     <p class="lead">We provide full lawn service, but can take on any job (powerwashing, house-sitting, etc.)</p>
                     <hr class="m-y-2">
@@ -48,7 +47,8 @@
         </div>
     </div>
 
-
+    <link rel="stylesheet" type="text/css" href="https://anijs.github.io/lib/anicollection/anicollection.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="dist/app.bundle.js"></script>
     <script src="https://cdn.jsdelivr.net/anijs/0.9.3/anijs-min.js"></script>
 
