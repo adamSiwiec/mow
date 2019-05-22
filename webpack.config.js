@@ -5,6 +5,9 @@ var SRC = path.join(__dirname, 'src/');
 var OUT = path.join(__dirname, 'dist/');
 
 module.exports = {
+    optimization: {
+        minimize: true
+    },
     entry: SRC,
     output: {
         publicPath: "dist/",
@@ -12,7 +15,7 @@ module.exports = {
         filename: 'app.bundle.js'
     },
     module: {
-        loaders: [{
+        rules: [{
             test: /\.css$/,
             loaders: ['style-loader', 'css-loader']
 
@@ -37,12 +40,6 @@ module.exports = {
             $: "jquery",
             jQuery: "jquery",
             "window.jQuery": "jquery"
-        }),
-
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false
-            }
         })
     ]
 };
